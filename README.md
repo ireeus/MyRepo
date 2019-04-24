@@ -1,2 +1,4 @@
 # kodi-repo-generator
-piece of a software to create your own kodi repository management system. It runs under php server.
+Tis is a piece of software which creates your own kodi repository management system. It runs in php environment.
+It is open source GNU GENERAL PUBLIC LICENSE. Version 2, June 1991
+
