@@ -1,11 +1,14 @@
-# kodi-repo-generator
-This is a piece of software which creates your own kodi repository management system. 
-It allows to:
+# MyRepo
+Is a Kodi repository generator which allows to keep selected addons from various locations in a one place.
+
+Also it allows to:
 - Create users
-- Add or remove your addons
+- Add favourite  or remove unwanted raddons.
 - Score and comment addons
-- Report addons that voilate copy right licenses (needs developing further)
+- Report addons that voilate copyright licenses (needs developing further)
+
 It runs in php environment.
+
 License: GNU GENERAL PUBLIC LICENSE. Version 2, June 1991
 
 Installation:
@@ -39,3 +42,19 @@ Using MyRepo
 7. All addons uploaded to MyRepo must have a name of the zip file  exactly the same as an id in the addon.xml file
 
     <addon id="myrepo"
+
+   
+Using repo in Kodi
+1. Download zip file from the homepage into your kodi device
+2. Go to addons and install from zip file
+3. Allow Kodi to install addons from unknown sources\
+4. Install zip file
+
+   (example)
+   
+   myaddon-0.5.1.zip
+5. Go to "install from repository" and select MyRepo (or the name of the repo you selected durring installation)
+6. Addons uploaded to the repo will be available on kodi after the repo is updated by kodi or by user.
+ 
+
+
