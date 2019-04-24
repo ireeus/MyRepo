@@ -36,5 +36,6 @@ Using MyRepo
     
     myrepo.zip <--is correct.
     
-7. All addons uploaded to the repo needs to have the name of the zip file as an id in the addon.xml file
+7. All addons uploaded to MyRepo must have a name of the zip file  exactly the same as an id in the addon.xml file
+
     <addon id="myrepo"
