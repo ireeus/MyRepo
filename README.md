@@ -20,13 +20,21 @@ Using MyRepo
 4. Extract files and add your custome "icon.png" and "fanart.jpg".
   - Make sure the extension of each file is correct.
 5. Compress the file folder with all files
+
     (example)
+    
     myrepo/addon.xml
+    
     myrepo/fanart.jpg
+    
     myrepo/icon.png
+    
 6. Upload compressed package using uploading page.
-  -Make sure the .zip package doesn't contain the version name 
+  -Make sure the .zip package doesn't contain the version name
+  
     myrepo-0.5.1.zip <--is incorrect
+    
     myrepo.zip <--is correct.
+    
 7. All addons uploaded to the repo needs to have the name of the zip file as an id in the addon.xml file
     <addon id="myrepo"
