@@ -116,6 +116,7 @@ echo $actual_link[0];?><br><br><font color="green"><b>Enter the following repo d
 
 
 <?php 
+if (isset($_POST['repository_domain']) and $_POST['repository_domain']!=='' and isset($_POST['repository_domain']) and $_POST['repository_domain']!==''){
 $repository_domain = $_POST['repository_domain'];
 $repo_id= $_POST['repo_id'];
 $repo_name=$_POST['repo_name'];
@@ -126,6 +127,8 @@ $repo_description = $_POST['repo_description'];
 //1. creating config file
 $config_file = '<?php
 //////////////////////////////////Repo config//////////////////////////////////////////////////////////////
+// switching off the errors
+ini_set("display_errors","off");
 
 //Repository adddress - forward slash on the end
 $repository_domain = "'.$repository_domain.'";
@@ -176,7 +179,7 @@ $info_file = '<p> <h2>'.$repo_name.'</h2>
 
 <p></p>
 <p></p>';
-if (isset($_POST['repository_domain']) and $_POST['repository_domain']!=='' and isset($_POST['repository_domain']) and $_POST['repository_domain']!==''){
+
 //1.1 - Creating config file
 $my_ver = 'config.php';
 $handle = fopen($my_ver, 'w') or die('<br><br>f11110-You don\'t have suficient permission to write in the directory');
