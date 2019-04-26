@@ -58,5 +58,10 @@ Using repo in Kodi
 5. Go to "install from repository" and select MyRepo (or the name of the repo you selected durring installation)
 6. Addons uploaded to the repo will be available on kodi after the repo is updated by kodi or by user.
  
-
+ 
+ **Desn't support files bigger than 7MB. 
+ In order to upload addons bigger than 7MB
+ 
+1. Create zip file containing only addon.xml, icon.png and fanard.jpg
+2. upload such package and then upload full package(over 7MB) via ftp.
 
