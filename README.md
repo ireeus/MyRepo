@@ -1,7 +1,7 @@
 # MyRepo
 Is a Kodi repository generator which allows to keep selected addons from various locations in a one place.
 
-Sample repo: http://cloudrepo.v5.pl
+Sample repo: http://cloudrepo.5v.pl/
 
 Also it allows to:
 - Create users
